@@ -1,4 +1,4 @@
-to tree :size
+To tree :size
    if :size < 5 [forward :size back :size stop]
    forward :size/3
    left 30 tree :size*2/3 right 30
@@ -8,7 +8,7 @@ to tree :size
    right 25 tree :size/2 left 25
    forward :size/6
    back :size
-end
+END
 clearscreen
 tree 150
 rt 90 fd 25
